@@ -1,38 +1,20 @@
 package org.sValero;
 
 public class RomanNumberConvert {
-    public String convert(int integer) {
+    private static final String[] UNIDADES = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
+    private static final String[] DECENAS = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
+    private static final String[] CENTENAS = {"", "C"};
 
-        String romanNumber = null;
+    public static String convert(int numero) {
+        if (numero < 1 || numero > 100) {
+            throw new IllegalArgumentException("El número debe estar entre 1 y 100");
+        }
 
-        if (integer == 1) {
-            romanNumber = "I";
-        }
-        if (integer == 2) {
-            romanNumber = "II";
-        }
-        if (integer == 3) {
-            romanNumber = "III";
-        }
-        if (integer == 4) {
-            romanNumber = "IV";
-        }
-        if (integer == 5) {
-            romanNumber = "V";
-        }
-        if (integer == 6) {
-            romanNumber = "VI";
-        }
-        if (integer == 7) {
-            romanNumber = "VII";
-        }
-        if (integer == 8) {
-            romanNumber = "VIII";
-        }
-        if (integer == 9) {
-            romanNumber = "IX";
-        }if (integer == 10) {
-            romanNumber = "X";
-        }return romanNumber;
+        int unidad = numero % 10;
+        int decena = (numero / 10) % 10;
+        int centena = numero / 100;
+
+        return CENTENAS[centena] + DECENAS[decena] + UNIDADES[unidad];
     }
+
 }

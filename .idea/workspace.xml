@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21ad8b82-4205-48cb-a43b-03c420c1da1f" name="Changes" comment="Convertir numero 7">
+    <list default="true" id="21ad8b82-4205-48cb-a43b-03c420c1da1f" name="Changes" comment="Refactor numeroEntero por integer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sValero/RomanNumberConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sValero/RomanNumberConvert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/sValero/RomanNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sValero/RomanNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +144,35 @@
       <option name="project" value="LOCAL" />
       <updated>1682536129245</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Convertir numero 8">
+      <created>1682536569949</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682536569949</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Convertir numero 9">
+      <created>1682536618921</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682536618921</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Convertir numero 10">
+      <created>1682536669917</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682536669917</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Refactor numeroEntero por integer">
+      <created>1682536781564</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682536781564</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,6 +183,10 @@
     <MESSAGE value="Convertir numero 5" />
     <MESSAGE value="Convertir numero 6" />
     <MESSAGE value="Convertir numero 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convertir numero 7" />
+    <MESSAGE value="Convertir numero 8" />
+    <MESSAGE value="Convertir numero 9" />
+    <MESSAGE value="Convertir numero 10" />
+    <MESSAGE value="Refactor numeroEntero por integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor numeroEntero por integer" />
   </component>
 </project>
