@@ -25,6 +25,9 @@ public class RomanNumberConvert {
         }
         if (numeroEntero == 7) {
             romanNumber = "VII";
+        }
+        if (numeroEntero == 8) {
+            romanNumber = "VIII";
         }return romanNumber;
     }
 }

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21ad8b82-4205-48cb-a43b-03c420c1da1f" name="Changes" comment="Convertir numero 5">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sValero/RomanNumberConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sValero/RomanNumberConvert.java" afterDir="false" />
+    <list default="true" id="21ad8b82-4205-48cb-a43b-03c420c1da1f" name="Changes" comment="Convertir numero 7">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/sValero/RomanNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sValero/RomanNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682535917705</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Convertir numero 6">
+      <created>1682536030000</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682536030000</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Convertir numero 7">
+      <created>1682536129245</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682536129245</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,6 +151,8 @@
     <MESSAGE value="Convertir numero 3" />
     <MESSAGE value="Convertir numero 4" />
     <MESSAGE value="Convertir numero 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convertir numero 5" />
+    <MESSAGE value="Convertir numero 6" />
+    <MESSAGE value="Convertir numero 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Convertir numero 7" />
   </component>
 </project>
