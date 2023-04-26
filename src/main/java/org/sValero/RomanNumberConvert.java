@@ -16,6 +16,9 @@ public class RomanNumberConvert {
         }
         if (numeroEntero == 4) {
             romanNumber = "IV";
+        }
+        if (numeroEntero == 5) {
+            romanNumber = "V";
         }return romanNumber;
     }
 }
