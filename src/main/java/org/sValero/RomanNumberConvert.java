@@ -11,6 +11,9 @@ public class RomanNumberConvert {
         if (numeroEntero == 2) {
             romanNumber = "II";
         }
+        if (numeroEntero == 3) {
+            romanNumber = "III";
+        }
         return romanNumber;
     }
 }
