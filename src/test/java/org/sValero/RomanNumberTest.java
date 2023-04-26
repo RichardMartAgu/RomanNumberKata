@@ -16,5 +16,6 @@ public class RomanNumberTest {
         Assert.assertEquals("VI", convertidorNumeros.convert(6));
         Assert.assertEquals("VII", convertidorNumeros.convert(7));
         Assert.assertEquals("VIII", convertidorNumeros.convert(8));
+        Assert.assertEquals("IX", convertidorNumeros.convert(9));
     }
 }

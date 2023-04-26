@@ -28,6 +28,9 @@ public class RomanNumberConvert {
         }
         if (numeroEntero == 8) {
             romanNumber = "VIII";
+        }
+        if (numeroEntero == 9) {
+            romanNumber = "IX";
         }return romanNumber;
     }
 }
