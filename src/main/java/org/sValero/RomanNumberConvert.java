@@ -31,6 +31,8 @@ public class RomanNumberConvert {
         }
         if (numeroEntero == 9) {
             romanNumber = "IX";
+        }if (numeroEntero == 10) {
+            romanNumber = "X";
         }return romanNumber;
     }
 }
