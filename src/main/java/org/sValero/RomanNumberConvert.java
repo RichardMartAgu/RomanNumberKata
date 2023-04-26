@@ -22,6 +22,9 @@ public class RomanNumberConvert {
         }
         if (numeroEntero == 6) {
             romanNumber = "VI";
+        }
+        if (numeroEntero == 7) {
+            romanNumber = "VII";
         }return romanNumber;
     }
 }

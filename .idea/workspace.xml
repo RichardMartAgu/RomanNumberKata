@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21ad8b82-4205-48cb-a43b-03c420c1da1f" name="Changes" comment="Convertir numero 1">
+    <list default="true" id="21ad8b82-4205-48cb-a43b-03c420c1da1f" name="Changes" comment="Convertir numero 5">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sValero/RomanNumberConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sValero/RomanNumberConvert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/sValero/RomanNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sValero/RomanNumberTest.java" afterDir="false" />
     </list>
@@ -101,11 +101,43 @@
       <option name="project" value="LOCAL" />
       <updated>1682535679570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Convertir numero 2">
+      <created>1682535725333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682535725333</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Convertir numero 3">
+      <created>1682535762591</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682535762591</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Convertir numero 4">
+      <created>1682535809216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682535809216</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Convertir numero 5">
+      <created>1682535917705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682535917705</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Convertir numero 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convertir numero 1" />
+    <MESSAGE value="Convertir numero 2" />
+    <MESSAGE value="Convertir numero 3" />
+    <MESSAGE value="Convertir numero 4" />
+    <MESSAGE value="Convertir numero 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Convertir numero 5" />
   </component>
 </project>
