@@ -26,6 +26,15 @@ public class RomanNumberTest {
         Assert.assertEquals("LXVIII", RomanNumberConvert.convert(68));
         Assert.assertEquals("LXXXIX", RomanNumberConvert.convert(89));
         Assert.assertEquals("C", RomanNumberConvert.convert(100));
+        Assert.assertEquals("CX", RomanNumberConvert.convert(110));
+        Assert.assertEquals("CC", RomanNumberConvert.convert(200));
+        Assert.assertEquals("D", RomanNumberConvert.convert(500));
+        Assert.assertEquals("DXVIII", RomanNumberConvert.convert(518));
+        Assert.assertEquals("DCCXXVIII", RomanNumberConvert.convert(728));
+        Assert.assertEquals("CMXCVIII", RomanNumberConvert.convert(998));
+        Assert.assertEquals("M", RomanNumberConvert.convert(1000));
+
+
 
     }
 }

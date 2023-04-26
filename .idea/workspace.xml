@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21ad8b82-4205-48cb-a43b-03c420c1da1f" name="Changes" comment="Refactor numeroEntero por integer">
+    <list default="true" id="21ad8b82-4205-48cb-a43b-03c420c1da1f" name="Changes" comment="Refactor test hasta el 100">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sValero/RomanNumberConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sValero/RomanNumberConvert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/sValero/RomanNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sValero/RomanNumberTest.java" afterDir="false" />
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682536781564</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Refactor test hasta el 100">
+      <created>1682538386521</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682538386521</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,6 +194,7 @@
     <MESSAGE value="Convertir numero 9" />
     <MESSAGE value="Convertir numero 10" />
     <MESSAGE value="Refactor numeroEntero por integer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor numeroEntero por integer" />
+    <MESSAGE value="Refactor test hasta el 100" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor test hasta el 100" />
   </component>
 </project>
