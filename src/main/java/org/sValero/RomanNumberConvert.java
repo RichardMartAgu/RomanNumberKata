@@ -7,7 +7,7 @@ public class RomanNumberConvert {
     private static final String[] MILES = {"", "M", "MM", "MMM"};
 
     public static String convert(int number) {
-        if (number < 1 || number > 2000) {
+        if (number < 1 || number > 3000) {
             throw new IllegalArgumentException("El número debe estar entre 1 y 1000");
         }
 
