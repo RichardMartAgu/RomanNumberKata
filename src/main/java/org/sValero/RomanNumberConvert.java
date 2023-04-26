@@ -1,37 +1,37 @@
 package org.sValero;
 
 public class RomanNumberConvert {
-    public String convert(int numeroEntero) {
+    public String convert(int integer) {
 
         String romanNumber = null;
 
-        if (numeroEntero == 1) {
+        if (integer == 1) {
             romanNumber = "I";
         }
-        if (numeroEntero == 2) {
+        if (integer == 2) {
             romanNumber = "II";
         }
-        if (numeroEntero == 3) {
+        if (integer == 3) {
             romanNumber = "III";
         }
-        if (numeroEntero == 4) {
+        if (integer == 4) {
             romanNumber = "IV";
         }
-        if (numeroEntero == 5) {
+        if (integer == 5) {
             romanNumber = "V";
         }
-        if (numeroEntero == 6) {
+        if (integer == 6) {
             romanNumber = "VI";
         }
-        if (numeroEntero == 7) {
+        if (integer == 7) {
             romanNumber = "VII";
         }
-        if (numeroEntero == 8) {
+        if (integer == 8) {
             romanNumber = "VIII";
         }
-        if (numeroEntero == 9) {
+        if (integer == 9) {
             romanNumber = "IX";
-        }if (numeroEntero == 10) {
+        }if (integer == 10) {
             romanNumber = "X";
         }return romanNumber;
     }
