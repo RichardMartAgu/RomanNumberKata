@@ -23,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -43,7 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RomanNumberTest.convertTest">
+  <component name="RunManager" selected="JUnit.RomanNumberTest">
     <configuration name="RomanNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumberKata" />
       <extension name="coverage">
@@ -77,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RomanNumberTest.convertTest" />
         <item itemvalue="JUnit.RomanNumberTest" />
+        <item itemvalue="JUnit.RomanNumberTest.convertTest" />
       </list>
     </recent_temporary>
   </component>
