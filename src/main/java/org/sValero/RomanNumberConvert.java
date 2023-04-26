@@ -8,6 +8,9 @@ public class RomanNumberConvert {
         if (numeroEntero == 1) {
             romanNumber = "I";
         }
+        if (numeroEntero == 2) {
+            romanNumber = "II";
+        }
         return romanNumber;
     }
 }

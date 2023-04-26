@@ -9,5 +9,6 @@ public class RomanNumberTest {
 
         RomanNumberConvert convertidorNumeros = new RomanNumberConvert();
         Assert.assertEquals("I", convertidorNumeros.convert(1));
+        Assert.assertEquals("II", convertidorNumeros.convert(2));
     }
 }
