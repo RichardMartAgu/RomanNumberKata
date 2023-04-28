@@ -32,7 +32,7 @@ public final class RomanNumberConvert {
 
   // Constructor privado para evitar la creación de instancias de la clase.
 
-  private RomanNumberConvert() {}
+  private RomanNumberConvert() { }
 
   // Convierte un número entero en su representación numérica romana.
   /**
