@@ -174,7 +174,7 @@ public class RomanNumberTest {
     private static final int THREE_THOUSAND = 3000;
 
     /**
-     * Test de tdd
+     * Test de tdd.
      */
     @Test
     public void convertTest() {
