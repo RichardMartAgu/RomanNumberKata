@@ -1,35 +1,32 @@
 package org.sValero;
 
-
-    //Clase que permite la conversión de números enteros en su representación numérica romana.
-
+    /**Clase que permite la conversión de números enteros
+     * en su representación numérica romana.
+    **/
 public final class RomanNumberConvert {
-
 
     //Representación de las unidades en números romanos.
 
-    private static final String[] UNITS = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
-
+    private static final String[] UNITS = {"", "I", "II", "III", "IV",
+            "V", "VI", "VII", "VIII", "IX"};
 
      //Representación de las decenas en números romanos.
 
-    private static final String[] TENS = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
-
+    private static final String[] TENS = {"", "X", "XX", "XXX", "XL",
+            "L", "LX", "LXX", "LXXX", "XC"};
 
      //Representación de las centenas en números romanos.
 
-    private static final String[] HUNDREDS = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
-
+    private static final String[] HUNDREDS = {"", "C", "CC", "CCC", "CD",
+            "D", "DC", "DCC", "DCCC", "CM"};
 
     //Representación de los millares en números romanos.
 
     private static final String[] THOUSANDS = {"", "M", "MM", "MMM"};
 
-
     //Constructor privado para evitar la creación de instancias de la clase.
 
     private RomanNumberConvert() {}
-
 
     //Convierte un número entero en su representación numérica romana.
 
@@ -49,5 +46,4 @@ public final class RomanNumberConvert {
 
         return THOUSANDS[thousand] + HUNDREDS[hundred] + TENS[ten] + UNITS[unit];
     }
-
 }
