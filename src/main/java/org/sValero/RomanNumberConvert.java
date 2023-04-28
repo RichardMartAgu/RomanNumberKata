@@ -3,10 +3,6 @@ package org.sValero;
 /** Clase que convierte números romanos. */
 public final class RomanNumberConvert {
 
-  /** Número mínimo. */
-  private static final int MINIMUM_NUMBER = 1;
-  /** Número máximo. */
-  private static final int MAXIMUM_NUMBER = 3000;
   /** Número fijo para cálculos. */
   private static final int UNITS_IN_TEN = 10;
   /** Número fijo para cálculos. */
@@ -20,7 +16,8 @@ public final class RomanNumberConvert {
   };
 
   /** Representación de las decenas en números romanos. */
-  private static final String[] TENS = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
+  private static final String[] TENS = {
+          "", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
 
   /** Representación de las centenas en números romanos. */
   private static final String[] HUNDREDS = {
@@ -32,7 +29,7 @@ public final class RomanNumberConvert {
 
   // Constructor privado para evitar la creación de instancias de la clase.
 
-  private RomanNumberConvert() { }
+  private RomanNumberConvert() {}
 
   // Convierte un número entero en su representación numérica romana.
   /**
@@ -40,13 +37,8 @@ public final class RomanNumberConvert {
    *
    * @param number El número entero a convertir.
    * @return El número romano correspondiente.
-   * @throws IllegalArgumentException si el número está fuera del rango permitido.
    */
   public static String convert(final int number) {
-
-    if (number < MINIMUM_NUMBER || number > MAXIMUM_NUMBER) {
-      throw new IllegalArgumentException("El número debe " + "estar entre 1 y 3000");
-    }
 
     final int unit = number % UNITS_IN_TEN;
     final int ten = (number / UNITS_IN_TEN) % UNITS_IN_TEN;
