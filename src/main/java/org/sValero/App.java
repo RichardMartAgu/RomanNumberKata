@@ -1,7 +1,10 @@
 package org.sValero;
-public class App{
+
+public class App {
     /**
-     *Método main
+     * Método main
      */
-    final void main(String[]args){}
+    public static void main(final String[] args) {
+        // Código aquí
+    }
 }
