@@ -16,7 +16,19 @@ public final class RomanNumberConvert {
   };
 
   /** Representación de las decenas en números romanos. */
-  private static final String[] TENS = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
+  private static final String[] TENS = {
+    "",
+    // esta es la única forma de que no pete
+    "X",
+    "XX",
+    "XXX",
+    "XL",
+    "L",
+    "LX",
+    "LXX",
+    "LXXX",
+    "XC"
+  };
 
   /** Representación de las centenas en números romanos. */
   private static final String[] HUNDREDS = {
