@@ -57,10 +57,10 @@ public final class RomanNumberConvert {
     private RomanNumberConvert() { }
 
     //Convierte un número entero en su representación numérica romana.
-
+    /**
+     * Convierte los números romanos en enteros
+     */
     public static String convert(final int number) {
-
-
 
         if (number < MINIMUM_NUMBER || number > MAXIMUM_NUMBER){
             throw new IllegalArgumentException

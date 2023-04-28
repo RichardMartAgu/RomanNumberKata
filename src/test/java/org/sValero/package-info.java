@@ -1,5 +1,5 @@
 /**
- * Esto es un archivo para probar test unitarios
+ * Esto es un archivo para probar test unitarios.
  *
  *  @version 1.0
  *  @author Ricard Martinez
