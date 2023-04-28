@@ -6,8 +6,6 @@ import org.junit.Test;
 public class RomanNumberTest {
     @Test
     public void convertTest() {
-
-
         Assert.assertEquals("I", RomanNumberConvert.convert(1));
         Assert.assertEquals("II", RomanNumberConvert.convert(2));
         Assert.assertEquals("III", RomanNumberConvert.convert(3));
@@ -50,10 +48,5 @@ public class RomanNumberTest {
         Assert.assertEquals("MMCMLXXV", RomanNumberConvert.convert(2975));
         Assert.assertEquals("MMCMXCIX", RomanNumberConvert.convert(2999));
         Assert.assertEquals("MMM", RomanNumberConvert.convert(3000));
-
-
-
-
-
     }
 }
