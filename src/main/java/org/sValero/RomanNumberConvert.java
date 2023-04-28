@@ -67,8 +67,8 @@ public final class RomanNumberConvert {
     public static String convert(final int number) {
 
         if (number < MINIMUM_NUMBER || number > MAXIMUM_NUMBER) {
-            throw new IllegalArgumentException("El número debe " +
-                    "estar entre 1 y 3000");
+            throw new IllegalArgumentException("El número debe "
+                    + "estar entre 1 y 3000");
         }
 
         final int unit = number % UNITS_IN_TEN;
@@ -76,7 +76,7 @@ public final class RomanNumberConvert {
         final int hundred = (number / UNITS_IN_HUNDRED) % UNITS_IN_TEN;
         final int thousand = number / UNITS_IN_THOUSAND;
 
-        return THOUSANDS[thousand] + HUNDREDS[hundred] +
-                TENS[ten] + UNITS[unit];
+        return THOUSANDS[thousand] + HUNDREDS[hundred]
+                + TENS[ten] + UNITS[unit];
     }
 }

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21ad8b82-4205-48cb-a43b-03c420c1da1f" name="Changes" comment="Ajustando a pruebas de lintr">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sValero/RomanNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sValero/RomanNumberTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="21ad8b82-4205-48cb-a43b-03c420c1da1f" name="Changes" comment="Ajustando a pruebas de lintr" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +44,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RomanNumberTest.convertTest">
+  <component name="RunManager" selected="JUnit.RomanNumberTest">
     <configuration name="RomanNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumberKata" />
       <extension name="coverage">
@@ -80,8 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RomanNumberTest.convertTest" />
         <item itemvalue="JUnit.RomanNumberTest" />
+        <item itemvalue="JUnit.RomanNumberTest.convertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +344,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682719436053</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Ajustando a pruebas de lintr">
+      <created>1682719543309</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1682719543309</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Ajustando a pruebas de lintr">
+      <created>1682719656374</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682719656374</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Ajustando a pruebas de lintr">
+      <created>1682719940816</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1682719940816</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
