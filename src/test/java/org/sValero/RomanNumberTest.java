@@ -5,24 +5,68 @@ import org.junit.Test;
 
 public class RomanNumberTest {
     /**
-     * Las siguientes líneas definen una variable
-     * entera constante con valores asignados para pasar el test
+     * Variable para entrada del número 1 en test
      */
     private static final int ONE = 1;
+    /**
+     * Variable para entrada del número 2 en test
+     */
     private static final int TWO = 2;
+    /**
+     * Variable para entrada del número 3 en test
+     */
     private static final int THREE = 3;
+    /**
+     * Variable para entrada del número 4 en test
+     */
     private static final int FOUR = 4;
+    /**
+     * Variable para entrada del número 5 en test
+     */
     private static final int FIVE = 5;
+    /**
+     * Variable para entrada del número 6 en test
+     */
     private static final int SIX = 6;
+    /**
+     * Variable para entrada del número 7 en test
+     */
     private static final int SEVEN = 7;
+    /**
+     * Variable para entrada del número 8 en test
+     */
     private static final int EIGHT = 8;
+    /**
+     * Variable para entrada del número 9 en test
+     */
     private static final int NINE = 9;
+    /**
+     * Variable para entrada del número 14 en test
+     */
     private static final int FOURTEEN = 14;
+    /**
+     * Variable para entrada del número 16 en test
+     */
     private static final int SIXTEEN = 16;
+    /**
+     * Variable para entrada del número 22 en test
+     */
     private static final int TWENTY_TWO = 22;
+    /**
+     * Variable para entrada del número 34 en test
+     */
     private static final int THIRTY_FOUR = 34;
+    /**
+     * Variable para entrada del número 43 en test
+     */
     private static final int FORTY_THREE = 43;
+    /**
+     * Variable para entrada del número 57 en test
+     */
     private static final int FIFTY_SEVEN = 57;
+    /**
+     * Variable para entrada del número 68 en test
+     */
     private static final int SIXTY_EIGHT = 68;
     private static final int EIGHTY_NINE = 89;
     private static final int ONE_HUNDRED = 100;
