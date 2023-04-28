@@ -61,7 +61,8 @@ public final class RomanNumberConvert {
      * Convierte los números romanos en enteros.
      * @param number El número entero a convertir.
      * @return El número romano correspondiente.
-     * @throws IllegalArgumentException si el número está fuera del rango permitido.
+     * @throws IllegalArgumentException
+     * si el número está fuera del rango permitido.
      */
     public static String convert(final int number) {
 
@@ -75,7 +76,7 @@ public final class RomanNumberConvert {
         final int hundred = (number / UNITS_IN_HUNDRED) % UNITS_IN_TEN;
         final int thousand = number / UNITS_IN_THOUSAND;
 
-        return THOUSANDS[thousand] + HUNDREDS[hundred]
-                + TENS[ten] + UNITS[unit];
+        return THOUSANDS[thousand] + HUNDREDS[hundred] +
+                TENS[ten] + UNITS[unit];
     }
 }

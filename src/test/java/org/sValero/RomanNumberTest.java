@@ -219,70 +219,70 @@ public class RomanNumberTest {
                 RomanNumberConvert.convert(ONE_HUNDRED_TEN));
         Assert.assertEquals("CC",
                 RomanNumberConvert.convert(TWO_HUNDRED));
-        Assert.assertEquals
-                ("D", RomanNumberConvert.convert(FIVE_HUNDRED));
-        Assert.assertEquals
-                ("DXVIII", RomanNumberConvert.convert
-                        (FIVE_HUNDRED_EIGHTEEN));
-        Assert.assertEquals
-                ("DCCXXVIII", RomanNumberConvert.convert
-                        (SEVEN_HUNDRED_TWENTY_EIGHT));
-        Assert.assertEquals
-                ("CMXCVIII", RomanNumberConvert.convert
-                        (NINE_HUNDRED_NINETY_EIGHT));
-        Assert.assertEquals
-                ("M", RomanNumberConvert.convert
-                        (ONE_THOUSAND));
-        Assert.assertEquals
-                ("MXXIV", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "D", RomanNumberConvert.convert(FIVE_HUNDRED));
+        Assert.assertEquals(
+                "DXVIII", RomanNumberConvert.convert(
+                        FIVE_HUNDRED_EIGHTEEN));
+        Assert.assertEquals(
+                "DCCXXVIII", RomanNumberConvert.convert(
+                        SEVEN_HUNDRED_TWENTY_EIGHT));
+        Assert.assertEquals(
+                "CMXCVIII", RomanNumberConvert.convert(
+                        NINE_HUNDRED_NINETY_EIGHT));
+        Assert.assertEquals(
+                "M", RomanNumberConvert.convert(
+                        ONE_THOUSAND));
+        Assert.assertEquals(
+                "MXXIV", RomanNumberConvert.convert(
                         ONE_THOUSAND_TWENTY_FOUR));
-        Assert.assertEquals
-                ("MCLXXII", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MCLXXII", RomanNumberConvert.convert(
                         ONE_THOUSAND_ONE_HUNDRED_SEVENTY_TWO));
-        Assert.assertEquals
-                ("MCDLIX", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MCDLIX", RomanNumberConvert.convert(
                         ONE_THOUSAND_FOUR_HUNDRED_FIFTY_NINE));
-        Assert.assertEquals
-                ("MD", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MD", RomanNumberConvert.convert(
                         ONE_THOUSAND_FIVE_HUNDRED));
-        Assert.assertEquals
-                ("MDCCCLXVIII", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MDCCCLXVIII", RomanNumberConvert.convert(
                         ONE_THOUSAND_EIGHT_HUNDRED_SIXTY_EIGHT));
-        Assert.assertEquals
-                ("MDCCCLXXV", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MDCCCLXXV", RomanNumberConvert.convert(
                         ONE_THOUSAND_EIGHT_HUNDRED_SEVENTY_FIVE));
-        Assert.assertEquals
-                ("MCMXCIX", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MCMXCIX", RomanNumberConvert.convert(
                         ONE_THOUSAND_NINE_HUNDRED_NINETY_NINE));
-        Assert.assertEquals
-                ("MM", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MM", RomanNumberConvert.convert(
                         TWO_THOUSAND));
-        Assert.assertEquals
-                ("MMCV", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MMCV", RomanNumberConvert.convert(
                         TWO_THOUSAND_ONE_HUNDRED_FIVE));
-        Assert.assertEquals
-                ("MMCCXXXVII", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MMCCXXXVII", RomanNumberConvert.convert(
                         TWO_THOUSAND_TWO_HUNDRED_THIRTY_SEVEN));
-        Assert.assertEquals
-                ("MMCDLXVIII", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MMCDLXVIII", RomanNumberConvert.convert(
                         TWO_THOUSAND_FOUR_HUNDRED_SIXTY_EIGHT));
-        Assert.assertEquals
-                ("MMDXC", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MMDXC", RomanNumberConvert.convert(
                         TWO_THOUSAND_FIVE_HUNDRED_NINETY));
-        Assert.assertEquals
-                ("MMDCCXI", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MMDCCXI", RomanNumberConvert.convert(
                         TWO_THOUSAND_SEVEN_HUNDRED_ELEVEN));
-        Assert.assertEquals
-                ("MMDCCCXXXIII", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MMDCCCXXXIII", RomanNumberConvert.convert(
                         TWO_THOUSAND_EIGHT_HUNDRED_THIRTY_THREE));
-        Assert.assertEquals
-                ("MMCMLXXV", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MMCMLXXV", RomanNumberConvert.convert(
                         TWO_THOUSAND_NINE_HUNDRED_SEVENTY_FIVE));
-        Assert.assertEquals
-                ("MMCMXCIX", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MMCMXCIX", RomanNumberConvert.convert(
                         TWO_THOUSAND_NINE_HUNDRED_NINETY_NINE));
-        Assert.assertEquals
-                ("MMM", RomanNumberConvert.convert(
+        Assert.assertEquals(
+                "MMM", RomanNumberConvert.convert(
                         THREE_THOUSAND));
 
     }
