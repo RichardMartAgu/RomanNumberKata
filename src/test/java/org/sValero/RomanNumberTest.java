@@ -4,6 +4,10 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class RomanNumberTest {
+    /**
+     * Las siguientes líneas definen una variable
+     * entera constante con valores asignados para pasar el test
+     */
     private static final int One = 1;
     private static final int Two = 2;
     private static final int Three = 3;
