@@ -58,13 +58,14 @@ public final class RomanNumberConvert {
 
     //Convierte un número entero en su representación numérica romana.
     /**
-     * Convierte los números romanos en enteros
+     * Convierte los números romanos en enteros.
+     * @param number El número entero a convertir.
      */
     public static String convert(final int number) {
 
         if (number < MINIMUM_NUMBER || number > MAXIMUM_NUMBER) {
-            throw new IllegalArgumentException
-                    ("El número debe estar entre 1 y 3000");
+            throw new IllegalArgumentException("El número debe " +
+                    "estar entre 1 y 3000");
         }
 
         final int unit = number % UNITS_IN_TEN;
