@@ -5,34 +5,30 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for simple App.
+ * Prueba unitaria para la aplicación.
  */
-public class AppTest 
-    extends TestCase
-{
+public class AppTest extends TestCase {
+
     /**
-     * Create the test case
+     * Crea la prueba unitaria.
      *
-     * @param testName name of the test case
+     * @param testName nombre de la prueba unitaria
      */
-    public AppTest( String testName )
-    {
-        super( testName );
+    public AppTest(final String testName) {
+        super(testName);
     }
 
     /**
-     * @return the suite of tests being tested
+     * @return el conjunto de pruebas que se están probando.
      */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
+    public static Test suite() {
+        return new TestSuite(AppTest.class);
     }
 
     /**
-     * Rigourous Test :-)
+     * Prueba rigurosa :-)
      */
-    public void testApp()
-    {
-        assertTrue( true );
+    public void testApp() {
+        assertTrue(true);
     }
 }

@@ -5,6 +5,12 @@ package org.sValero;
     **/
 public final class RomanNumberConvert {
 
+    private static final int MINIMUM_NUMBER = 1;
+    private static final int MAXIMUM_NUMBER = 3000;
+    private static final int UNITS_IN_TEN = 10;
+    private static final int UNITS_IN_HUNDRED = 100;
+    private static final int UNITS_IN_THOUSAND = 1000;
+
     /**
      * Representación de las unidades en números romanos.
      */
@@ -37,21 +43,18 @@ public final class RomanNumberConvert {
 
     //Convierte un número entero en su representación numérica romana.
 
-    public static String convert(final int number){
-        int diez = 10;
-        int cien = 100;
-        int mil = 1000;
-        int uno = 1 ;
-        int tresmil = 3000;
+    public static String convert(final int number) {
 
-        if (number < uno || number > tresmil){
+
+
+        if (number < MINIMUM_NUMBER || number > MAXIMUM_NUMBER) {
             throw new IllegalArgumentException("El número debe estar entre 1 y 3000");
         }
 
-        final int unit = number % diez;
-        final int ten = (number / diez) % diez;
-        final int hundred = (number / cien) % diez;
-        final int thousand = number / mil;
+        final int unit = number % UNITS_IN_TEN;
+        final int ten = (number / UNITS_IN_TEN) % UNITS_IN_TEN;
+        final int hundred = (number / UNITS_IN_HUNDRED) % UNITS_IN_TEN;
+        final int thousand = number / UNITS_IN_THOUSAND;
 
         return THOUSANDS[thousand] + HUNDREDS[hundred] + TENS[ten] + UNITS[unit];
     }
