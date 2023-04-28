@@ -16,8 +16,7 @@ public final class RomanNumberConvert {
   };
 
   /** Representación de las decenas en números romanos. */
-  private static final String[] TENS = {
-          "", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
+  private static final String[] TENS = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
 
   /** Representación de las centenas en números romanos. */
   private static final String[] HUNDREDS = {
@@ -29,7 +28,9 @@ public final class RomanNumberConvert {
 
   // Constructor privado para evitar la creación de instancias de la clase.
 
-  private RomanNumberConvert() {}
+  private RomanNumberConvert() {
+    // para que no pete lo bajo
+  }
 
   // Convierte un número entero en su representación numérica romana.
   /**

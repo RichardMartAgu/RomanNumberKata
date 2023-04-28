@@ -462,4 +462,8 @@
     <MESSAGE value="Ajustando a pruebas de lintr" />
     <option name="LAST_COMMIT_MESSAGE" value="Ajustando a pruebas de lintr" />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
 </project>
