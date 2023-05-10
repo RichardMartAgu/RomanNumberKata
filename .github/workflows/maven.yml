@@ -33,3 +33,11 @@ jobs:
 
       - name: Run tests
         run: mvn -B test
+        
+      - name: TO_MASTER deploy
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.TO_MASTER }}
+          publish_dir: .
+          publish_branch: master
